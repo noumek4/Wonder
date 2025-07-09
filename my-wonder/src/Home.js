@@ -1,6 +1,10 @@
 import React from 'react'
 import './Home.css'
 import { Link } from 'react-router-dom'
+import img1 from './img1'
+import img2 from './img2'
+import img3 from './img3'
+import img4 from './img4'
 
 function Home() {
     return(
@@ -22,7 +26,7 @@ function Home() {
 
             <div className='content'>
                 <div className='left-side'>
-                    <img src='/' alt='palace' />
+                    <img src={img1} alt='palace' />
                 </div>
 
                 <div className='right-side'>
@@ -41,17 +45,17 @@ function Home() {
 
                     <div className='card-list'>
                      <div className='card'>
-                        <img src='/' alt='waza'/>
+                        <img src={img2} alt='waza'/>
                         <p>Wildlife</p>
                      </div>
 
                      <div className='card'>
-                       <img src='/' alt='waza'/>
+                       <img src={img3} alt='waza'/>
                        <p>Vegetation</p> 
                      </div>
 
                      <div className='card'>
-                       <img src='/' alt='waza'/>
+                       <img src={img4} alt='waza'/>
                        <p>Vegetation</p> 
                      </div>
                     </div>
