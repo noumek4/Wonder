@@ -13,12 +13,13 @@ body{
     justify-content: center;
     align-items: center;
     padding: 20px 50px;
-    background-color: white;
+    background-color: #1f09eb;
+    color: white;
 }
 
 .logo{
     font-size: 24px;
-    font-weight: bold;
+    font-weight: light;
 }
 
 .nav-links{
@@ -31,10 +32,11 @@ body{
     cursor: pointer;
 }
 
-.auth-links a{
+Link{
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
     margin-left: 10px;
+    
 }
 
 .content{
@@ -104,14 +106,15 @@ body{
 .explore-btn{
     margin-top: 30px;
     padding: 12px 25px;
-    background-color: #ffdd00;
+    background-color: #4450fcd0;
     border: none;
     font-weight: bold;
     border-radius: 50px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    color: white;
 }
 
 .explore-btn:hover{
-    background-color: #f4c400;
+    background-color: #4c00ff;
 }

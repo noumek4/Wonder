@@ -1,16 +1,16 @@
 import React from 'react'
 import './Home.css'
 import { Link } from 'react-router-dom'
-import img1 from './img1'
-import img2 from './img2'
-import img3 from './img3'
-import img4 from './img4'
+import img1 from './img1.jpg'
+import img2 from './img2.webp'
+import img3 from './img3.jpg'
+import img4 from './img4.jpg'
 
 function Home() {
     return(
         <>
             <nav className='navbar'>
-                <div className='logo'>Explore</div>
+                <div className='logo'>GK Trips</div>
                 <ul className='nav-links'>
                     <li>Home</li>
                     <li>Hotels</li>
