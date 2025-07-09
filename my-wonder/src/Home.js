@@ -19,8 +19,8 @@ function Home() {
                 </ul>
 
                 <div className='auth-links'>
-                  <Link to="/register" >Create an Account</Link>
-                  <Link to="/signin" >Sign Up</Link>  
+                  <Link to="/register" ><a href='/'>Create an Account</a></Link>
+                  <Link to="/signin" ><a href='/'>Sign Up</a></Link>  
                 </div>
             </nav>
 
